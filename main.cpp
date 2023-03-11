@@ -9,7 +9,7 @@ void swap(int& a, int& b) {
 	a = b;
 	b = temp;
 }
-//·Ö»®²Ù×÷
+//å¿«é€Ÿæ’åº
 
 void QuickSort(int* a, int low, int high) {
 	int temp = a[low];
@@ -38,7 +38,7 @@ void QuickSort(int* a, int low, int high) {
     }
 }
 int main() {
-	printf("ÊäÈëÊı×é£º");
+	printf("æ•°ç»„å¦‚ä¸‹");
 	int a[10] = {5,41,54,32,60,87,94,20,12,3};
 	for (int i = 0; i < 10; i++) {
 		printf("%d ", a[i]);
